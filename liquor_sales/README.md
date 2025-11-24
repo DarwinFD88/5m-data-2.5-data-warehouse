@@ -5,7 +5,7 @@ Welcome to your new dbt project!
 To run this DBT project successfully, you will need the following:
 1. Set up your Google Cloud Platform account and make sure you can access the [console](https://console.cloud.google.com/)
 2. Install gcloud CLI using instructions [here](https://cloud.google.com/sdk/docs/install)
-3. Authenticate GCP (The command is `glcoud auth application-default login`)
+3. Authenticate GCP (The command is `/snap/bin/gcloud auth application-default login`)
 4. Go to GCP-IAM and give yourself BigQuery Admin role
 5. Update profiles.yml (update '\<YOUR-PROJECT-NAME\>')
 
