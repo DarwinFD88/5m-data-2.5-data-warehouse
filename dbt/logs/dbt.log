@@ -1,0 +1,215 @@
+[0m19:49:33.481525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d7974820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d6ad9750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d6ad96f0>]}
+
+
+============================== 19:49:33.503314 | 69a78a7f-e6a6-4b66-8145-4fbd1dd308c8 ==============================
+[0m19:49:33.503314 [info ] [MainThread]: Running with dbt=1.9.6
+[0m19:49:33.506178 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/darwin/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init austin_bikeshare_demo', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:49:33.701429 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/home/darwin/.dbt')}
+[0m19:49:33.708167 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:49:33.740449 [debug] [MainThread]: Starter project path: /home/darwin/miniconda3/envs/elt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:49:33.843544 [info ] [MainThread]: 
+Your new dbt project "austin_bikeshare_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:49:33.845755 [info ] [MainThread]: Setting up your profile.
+[0m19:54:06.581276 [info ] [MainThread]: Profile austin_bikeshare_demo written to /home/darwin/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:54:06.584263 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 284.11053, "process_in_blocks": "263816", "process_kernel_time": 3.301884, "process_mem_max_rss": "213376", "process_out_blocks": "80", "process_user_time": 19.0143}
+[0m19:54:06.587085 [debug] [MainThread]: Command `dbt init` succeeded at 19:54:06.586572 after 284.11 seconds
+[0m19:54:06.589030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d7974820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d7579b70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7079d7579b40>]}
+[0m19:54:06.600466 [debug] [MainThread]: Flushing usage events
+[0m19:54:07.710380 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:54:29.196841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b3a2c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b2bb1540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b2bb14b0>]}
+
+
+============================== 19:54:29.249565 | f57c56c2-e303-403e-a049-efc152b128ff ==============================
+[0m19:54:29.249565 [info ] [MainThread]: Running with dbt=1.9.6
+[0m19:54:29.254445 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/darwin/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:54:29.341484 [info ] [MainThread]: dbt version: 1.9.6
+[0m19:54:29.343614 [info ] [MainThread]: python version: 3.10.18
+[0m19:54:29.345386 [info ] [MainThread]: python path: /home/darwin/miniconda3/envs/elt/bin/python3.10
+[0m19:54:29.347384 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m19:54:34.057456 [info ] [MainThread]: Using profiles dir at /home/darwin/.dbt
+[0m19:54:34.059222 [info ] [MainThread]: Using profiles.yml file at /home/darwin/.dbt/profiles.yml
+[0m19:54:34.061258 [info ] [MainThread]: Using dbt_project.yml file at /home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml
+[0m19:54:34.063348 [info ] [MainThread]: adapter type: bigquery
+[0m19:54:34.076372 [info ] [MainThread]: adapter version: 1.9.1
+[0m19:54:34.078798 [info ] [MainThread]: Configuration:
+[0m19:54:34.080758 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:54:34.082744 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:54:34.085534 [info ] [MainThread]: Required dependencies:
+[0m19:54:34.087456 [debug] [MainThread]: Executing "git --help"
+[0m19:54:34.120610 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:54:34.123222 [debug] [MainThread]: STDERR: "b''"
+[0m19:54:34.124993 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:54:34.127016 [info ] [MainThread]: Connection:
+[0m19:54:34.140761 [info ] [MainThread]:   method: oauth
+[0m19:54:34.142861 [info ] [MainThread]:   database: my-project-dsai-3
+[0m19:54:34.156149 [info ] [MainThread]:   execution_project: my-project-dsai-3
+[0m19:54:34.158504 [info ] [MainThread]:   schema: austin_bikeshare_demo
+[0m19:54:34.160466 [info ] [MainThread]:   location: US
+[0m19:54:34.173561 [info ] [MainThread]:   priority: interactive
+[0m19:54:34.175330 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m19:54:34.177922 [info ] [MainThread]:   impersonate_service_account: None
+[0m19:54:34.189505 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m19:54:34.191983 [info ] [MainThread]:   job_retries: 1
+[0m19:54:34.193937 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m19:54:34.196356 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m19:54:34.208102 [info ] [MainThread]:   timeout_seconds: 300
+[0m19:54:34.210527 [info ] [MainThread]:   client_id: None
+[0m19:54:34.212833 [info ] [MainThread]:   token_uri: None
+[0m19:54:34.226109 [info ] [MainThread]:   dataproc_region: None
+[0m19:54:34.229223 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m19:54:34.243200 [info ] [MainThread]:   gcs_bucket: None
+[0m19:54:34.256606 [info ] [MainThread]:   dataproc_batch: None
+[0m19:54:34.259481 [info ] [MainThread]: Registered adapter: bigquery=1.9.1
+[0m19:54:35.323385 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m19:54:35.326499 [debug] [MainThread]: On debug: select 1 as id
+[0m19:54:35.329439 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:54:36.524893 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=my-project-dsai-3&j=bq:US:227ecaeb-0d08-47d2-aa80-116f51919d0c&page=queryresults
+[0m19:54:37.546822 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:54:37.549591 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:54:37.551695 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m19:54:37.566002 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 8.673154, "process_in_blocks": "2712", "process_kernel_time": 2.370481, "process_mem_max_rss": "221188", "process_out_blocks": "32", "process_user_time": 15.053572}
+[0m19:54:37.568526 [debug] [MainThread]: Command `dbt debug` failed at 19:54:37.567949 after 8.68 seconds
+[0m19:54:37.570142 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:54:37.578182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b3a2c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b35be140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7243b35bce20>]}
+[0m19:54:37.580684 [debug] [MainThread]: Flushing usage events
+[0m19:54:38.691118 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:57:30.559074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f99260310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f983e5240>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f983e51e0>]}
+
+
+============================== 19:57:30.570563 | bf002026-82b0-40ed-8b6d-51335cfcfe90 ==============================
+[0m19:57:30.570563 [info ] [MainThread]: Running with dbt=1.9.6
+[0m19:57:30.572183 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/darwin/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:57:30.631973 [info ] [MainThread]: dbt version: 1.9.6
+[0m19:57:30.633498 [info ] [MainThread]: python version: 3.10.18
+[0m19:57:30.635096 [info ] [MainThread]: python path: /home/darwin/miniconda3/envs/elt/bin/python3.10
+[0m19:57:30.636935 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m19:57:34.980228 [info ] [MainThread]: Using profiles dir at /home/darwin/.dbt
+[0m19:57:34.981789 [info ] [MainThread]: Using profiles.yml file at /home/darwin/.dbt/profiles.yml
+[0m19:57:34.984335 [info ] [MainThread]: Using dbt_project.yml file at /home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml
+[0m19:57:34.986429 [info ] [MainThread]: adapter type: bigquery
+[0m19:57:34.988269 [info ] [MainThread]: adapter version: 1.9.1
+[0m19:57:35.002378 [info ] [MainThread]: Configuration:
+[0m19:57:35.004590 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:57:35.006799 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:57:35.008790 [info ] [MainThread]: Required dependencies:
+[0m19:57:35.019673 [debug] [MainThread]: Executing "git --help"
+[0m19:57:35.027869 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:57:35.037063 [debug] [MainThread]: STDERR: "b''"
+[0m19:57:35.039411 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:57:35.041559 [info ] [MainThread]: Connection:
+[0m19:57:35.053636 [info ] [MainThread]:   method: oauth
+[0m19:57:35.056786 [info ] [MainThread]:   database: my-project-dsai-3
+[0m19:57:35.058855 [info ] [MainThread]:   execution_project: my-project-dsai-3
+[0m19:57:35.070522 [info ] [MainThread]:   schema: austin_bikeshare_demo
+[0m19:57:35.072652 [info ] [MainThread]:   location: US
+[0m19:57:35.074667 [info ] [MainThread]:   priority: interactive
+[0m19:57:35.086109 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m19:57:35.088057 [info ] [MainThread]:   impersonate_service_account: None
+[0m19:57:35.090336 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m19:57:35.103694 [info ] [MainThread]:   job_retries: 1
+[0m19:57:35.105674 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m19:57:35.107582 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m19:57:35.119576 [info ] [MainThread]:   timeout_seconds: 300
+[0m19:57:35.122016 [info ] [MainThread]:   client_id: None
+[0m19:57:35.123827 [info ] [MainThread]:   token_uri: None
+[0m19:57:35.125777 [info ] [MainThread]:   dataproc_region: None
+[0m19:57:35.137861 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m19:57:35.139781 [info ] [MainThread]:   gcs_bucket: None
+[0m19:57:35.141868 [info ] [MainThread]:   dataproc_batch: None
+[0m19:57:35.155169 [info ] [MainThread]: Registered adapter: bigquery=1.9.1
+[0m19:57:36.134749 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m19:57:36.137160 [debug] [MainThread]: On debug: select 1 as id
+[0m19:57:36.140970 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:57:36.931191 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=my-project-dsai-3&j=bq:US:4cab9dc7-2217-4685-918f-c46d30830ff1&page=queryresults
+[0m19:57:37.721044 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:57:37.722459 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:57:37.723478 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m19:57:37.724883 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 7.434091, "process_in_blocks": "0", "process_kernel_time": 2.105571, "process_mem_max_rss": "221080", "process_out_blocks": "24", "process_user_time": 21.38707}
+[0m19:57:37.726135 [debug] [MainThread]: Command `dbt debug` failed at 19:57:37.725601 after 7.44 seconds
+[0m19:57:37.727557 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:57:37.729029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f99260310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f98eec5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c1f98eec430>]}
+[0m19:57:37.736009 [debug] [MainThread]: Flushing usage events
+[0m19:57:38.746664 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:08:43.439753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767570e6fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76756feefd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76756feefdc0>]}
+
+
+============================== 20:08:43.448901 | e8064bbb-66c0-415f-acea-4208bb41231e ==============================
+[0m20:08:43.448901 [info ] [MainThread]: Running with dbt=1.9.6
+[0m20:08:43.450469 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/darwin/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:08:43.489735 [info ] [MainThread]: dbt version: 1.9.6
+[0m20:08:43.491290 [info ] [MainThread]: python version: 3.10.18
+[0m20:08:43.493203 [info ] [MainThread]: python path: /home/darwin/miniconda3/envs/elt/bin/python3.10
+[0m20:08:43.495032 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m20:08:48.136268 [info ] [MainThread]: Using profiles dir at /home/darwin/.dbt
+[0m20:08:48.140630 [info ] [MainThread]: Using profiles.yml file at /home/darwin/.dbt/profiles.yml
+[0m20:08:48.142114 [info ] [MainThread]: Using dbt_project.yml file at /home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml
+[0m20:08:48.143770 [info ] [MainThread]: adapter type: bigquery
+[0m20:08:48.145186 [info ] [MainThread]: adapter version: 1.9.1
+[0m20:08:48.147015 [info ] [MainThread]: Configuration:
+[0m20:08:48.148855 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:08:48.150674 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:08:48.152853 [info ] [MainThread]: Required dependencies:
+[0m20:08:48.154828 [debug] [MainThread]: Executing "git --help"
+[0m20:08:48.173790 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:08:48.183687 [debug] [MainThread]: STDERR: "b''"
+[0m20:08:48.185822 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:08:48.188302 [info ] [MainThread]: Connection:
+[0m20:08:48.198698 [info ] [MainThread]:   method: oauth
+[0m20:08:48.200873 [info ] [MainThread]:   database: my-project-dsai-3
+[0m20:08:48.203443 [info ] [MainThread]:   execution_project: my-project-dsai-3
+[0m20:08:48.205681 [info ] [MainThread]:   schema: austin_bikeshare_demo
+[0m20:08:48.207680 [info ] [MainThread]:   location: US
+[0m20:08:48.215936 [info ] [MainThread]:   priority: interactive
+[0m20:08:48.220165 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:08:48.221938 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:08:48.224698 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:08:48.226690 [info ] [MainThread]:   job_retries: 1
+[0m20:08:48.231003 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:08:48.240237 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:08:48.242108 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:08:48.243959 [info ] [MainThread]:   client_id: None
+[0m20:08:48.245810 [info ] [MainThread]:   token_uri: None
+[0m20:08:48.248149 [info ] [MainThread]:   dataproc_region: None
+[0m20:08:48.260396 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:08:48.262220 [info ] [MainThread]:   gcs_bucket: None
+[0m20:08:48.264036 [info ] [MainThread]:   dataproc_batch: None
+[0m20:08:48.277786 [info ] [MainThread]: Registered adapter: bigquery=1.9.1
+[0m20:08:49.260160 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:08:49.261388 [debug] [MainThread]: On debug: select 1 as id
+[0m20:08:49.262614 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:08:49.870372 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=my-project-dsai-3&j=bq:US:317ff891-336a-42e2-97e3-f2373a05b285&page=queryresults
+[0m20:08:51.685562 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:08:51.687026 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:08:51.688409 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m20:08:51.689806 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 9.862605, "process_in_blocks": "0", "process_kernel_time": 1.912246, "process_mem_max_rss": "221052", "process_out_blocks": "24", "process_user_time": 21.314661}
+[0m20:08:51.691410 [debug] [MainThread]: Command `dbt debug` failed at 20:08:51.690997 after 9.86 seconds
+[0m20:08:51.692634 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:08:51.694100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767570e6fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7675440a62c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7675440f4a30>]}
+[0m20:08:51.695151 [debug] [MainThread]: Flushing usage events
+[0m20:08:53.527299 [debug] [MainThread]: An error was encountered while trying to flush usage events
