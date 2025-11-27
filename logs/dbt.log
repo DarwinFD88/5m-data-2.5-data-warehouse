@@ -115,3 +115,15 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m21:36:08.993180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7123744881c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7123735ed120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x712373613d00>]}
 [0m21:36:08.995087 [debug] [MainThread]: Flushing usage events
 [0m21:36:10.300882 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:11:09.263968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2ba188e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2abad810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2abad7b0>]}
+
+
+============================== 15:11:09.273033 | 0efdc408-3543-436c-b8cb-e92635ad444d ==============================
+[0m15:11:09.273033 [info ] [MainThread]: Running with dbt=1.9.6
+[0m15:11:09.275485 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/darwin/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init london_bicycle_assignment', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:09.376127 [info ] [MainThread]: A project called london_bicycle_assignment already exists here.
+[0m15:11:09.379281 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.31488466, "process_in_blocks": "46120", "process_kernel_time": 0.571089, "process_mem_max_rss": "116372", "process_out_blocks": "8", "process_user_time": 6.056556}
+[0m15:11:09.380892 [debug] [MainThread]: Command `dbt init` succeeded at 15:11:09.380495 after 0.32 seconds
+[0m15:11:09.382229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2ba188e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2abae680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dcc2abad750>]}
+[0m15:11:09.383498 [debug] [MainThread]: Flushing usage events
+[0m15:11:10.869581 [debug] [MainThread]: An error was encountered while trying to flush usage events

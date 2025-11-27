@@ -213,3 +213,54 @@ Happy modeling!
 [0m20:08:51.694100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x767570e6fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7675440a62c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7675440f4a30>]}
 [0m20:08:51.695151 [debug] [MainThread]: Flushing usage events
 [0m20:08:53.527299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:11:59.285152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78baef344340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78baee4dd2a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78baee4dd240>]}
+
+
+============================== 15:11:59.294037 | 88677d7f-e8db-4c1a-a145-4bf47c219387 ==============================
+[0m15:11:59.294037 [info ] [MainThread]: Running with dbt=1.9.6
+[0m15:11:59.295785 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/darwin/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init london_bicycle_assignment', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:11:59.326412 [debug] [MainThread]: Starter project path: /home/darwin/miniconda3/envs/elt/lib/python3.10/site-packages/dbt/include/starter_project
+[0m15:11:59.370100 [info ] [MainThread]: 
+Your new dbt project "london_bicycle_assignment" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:11:59.372063 [info ] [MainThread]: Setting up your profile.
+[0m15:13:17.672427 [info ] [MainThread]: Profile london_bicycle_assignment written to /home/darwin/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:13:17.674888 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 83.71611, "process_in_blocks": "109656", "process_kernel_time": 1.02982, "process_mem_max_rss": "213924", "process_out_blocks": "88", "process_user_time": 8.495059}
+[0m15:13:17.677205 [debug] [MainThread]: Command `dbt init` succeeded at 15:13:17.676748 after 83.72 seconds
+[0m15:13:17.684436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78baef344340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78bac2665690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78bac26655d0>]}
+[0m15:13:17.688239 [debug] [MainThread]: Flushing usage events
+[0m15:13:18.768474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:19:10.710572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8f21afdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8f121bd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8f121bdc0>]}
+
+
+============================== 15:19:10.715910 | b68e1b6f-135b-4d31-8e1d-ed4f08426e50 ==============================
+[0m15:19:10.715910 [info ] [MainThread]: Running with dbt=1.9.6
+[0m15:19:10.717090 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/darwin/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:19:10.742505 [info ] [MainThread]: dbt version: 1.9.6
+[0m15:19:10.744586 [info ] [MainThread]: python version: 3.10.18
+[0m15:19:10.745981 [info ] [MainThread]: python path: /home/darwin/miniconda3/envs/elt/bin/python3.10
+[0m15:19:10.747716 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m15:19:12.998160 [info ] [MainThread]: Using profiles dir at /home/darwin/.dbt
+[0m15:19:12.999980 [info ] [MainThread]: Using profiles.yml file at /home/darwin/.dbt/profiles.yml
+[0m15:19:13.001684 [info ] [MainThread]: Using dbt_project.yml file at /home/darwin/NTU PACE Data Science Cohort 3/5m-data-2.5-data-warehouse/dbt/dbt_project.yml
+[0m15:19:13.003643 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m15:19:13.006594 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 2.3953712, "process_in_blocks": "40", "process_kernel_time": 0.55537, "process_mem_max_rss": "214052", "process_out_blocks": "16", "process_user_time": 7.559838}
+[0m15:19:13.016174 [debug] [MainThread]: Command `dbt debug` failed at 15:19:13.012675 after 2.40 seconds
+[0m15:19:13.018987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8f21afdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8f142a170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x79f8c54eb3d0>]}
+[0m15:19:13.021011 [debug] [MainThread]: Flushing usage events
+[0m15:19:14.298175 [debug] [MainThread]: An error was encountered while trying to flush usage events

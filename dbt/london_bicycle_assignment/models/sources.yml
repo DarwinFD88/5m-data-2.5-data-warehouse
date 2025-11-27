@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: london_bicycles
+    description: >
+      London bikeshare public dataset from BigQuery.
+      Contains trip records and station metadata.
+    database: bigquery-public-data
+    schema: london_bicycles
+    
+    tables:
+      - name: cycle_hire
+        description: >
+          Individual trip records. Each row is a bike rental.
+          
+      - name: cycle_stations
+        description: >
+          Station location and metadata for docking stations.
