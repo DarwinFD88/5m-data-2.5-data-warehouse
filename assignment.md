@@ -56,7 +56,7 @@ trip_agg AS (
         COUNT(end_station_id) AS total_ends
     FROM (
         SELECT
-            start_station_id AS station_id,
+            CAST(start_station_id AS STRING) AS station_id,
             duration_minutes,
             start_station_id,
             NULL AS end_station_id
@@ -65,7 +65,7 @@ trip_agg AS (
         UNION ALL
 
         SELECT
-            end_station_id AS station_id,
+            CAST(end_station_id AS STRING) AS station_id,
             duration_minutes,
             NULL AS start_station_id,
             end_station_id
@@ -81,7 +81,7 @@ SELECT
     COALESCE(t.total_ends, 0) AS total_ends
 FROM stations s
 LEFT JOIN trip_agg t
-    ON s.station_id = t.station_id;
+    ON CAST(s.station_id AS STRING) = t.station_id
 ```
 
 ## Submission
