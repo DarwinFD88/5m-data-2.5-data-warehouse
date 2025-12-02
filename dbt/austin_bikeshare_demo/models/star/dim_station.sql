@@ -37,7 +37,7 @@ trip_agg AS (
 
         SELECT
             CAST(end_station_id AS STRING) AS station_id,
-            duration_minutes,
+            0 AS duration_minutes,
             NULL AS start_station_id,
             end_station_id
         FROM {{ source('austin_bikeshare', 'bikeshare_trips') }}
