@@ -10,7 +10,7 @@ Paste the answer as SQL in the answer code section below each question.
 
 ### Question 1
 
-Let's revisit our `london_bicycle` dbt project. Modify the `dim_station.sql` model to include the following columns:
+Let's revisit our `austin_bikeshare_demo` dbt project. Modify the `dim_station.sql` model to include the following columns:
 
 - `total_duration` (sum of `duration` for each station in seconds)
 - `total_starts` (count of `start_station_name` for each station)
